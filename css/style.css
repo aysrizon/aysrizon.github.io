@@ -13,6 +13,11 @@
     src: url(../custom_fonts/Slabo27px-Regular.ttf);
 }
 
+@font-face{
+    font-family: notosans;
+    src: url(../custom_fonts/NotoSans-Regular.ttf);
+}
+
 .acme{
     font-family: acme;
 }
@@ -25,6 +30,13 @@
     font-family: slabo;
 }
 
+.notosans{
+    font-family: notosans;
+}
+
+
+
+
 .nav_custom{
     font-family: acme;
     font-size: 11pt;
@@ -32,4 +44,8 @@
 
 html {
     scroll-behavior: smooth;
+}
+
+.my_link{
+    text-decoration: none;
 }
