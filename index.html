@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fontawesome/css/all.css">
-    
+
     <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="typejs/typed.min.js"></script>
@@ -38,20 +38,21 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="index.html" class="nav_custom" style="color: white;"><i class="fas fa-home"></i> Home</a></li>
                     <li><a href="#portfolio" class="nav_custom"><i class="fas fa-file-alt"></i> Portfolio</a></li>
-                    <li><a href="downloadCV.html" class="nav_custom"><i class="fas fa-download"></i> Download CV</a></li>
-                    <li><a href="repositories.html" class="nav_custom"><i class="fas fa-folders"></i> Repositories</a></li>
-                    <li><a href="articles.html" class="nav_custom"><i class="far fa-newspaper"></i> Articles</a></li>
-                    <li><a href="index.html" class="nav_custom"><i class="fas fa-id-card"></i> Contact</a></li>
+                    <li><a href="#myModal" class="nav_custom" data-toggle="modal" data-target="#myModal"><i class="fas fa-download"></i> Download CV</a></li>
+                    <li><a href="#myModal" class="nav_custom" data-toggle="modal" data-target="#myModal"><i class="fas fa-folders"></i> Repositories</a></li>
+                    <li><a href="#myModal" class="nav_custom" data-toggle="modal" data-target="#myModal"><i class="far fa-newspaper"></i> Articles</a></li>
+                    <li><a href="#myModal" class="nav_custom" data-toggle="modal" data-target="#myModal"><i class="fas fa-id-card"></i> Contact</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
 
+    <!-- 00. Jumbotron -->
     <div class="jumbotron" style="margin-top: 25px; height: 700px; max-width: 100%;">
         <div class="container" style="color: black; margin-top: 100px;">
             <center>
                 <h2 style="margin-bottom: 40px; font-size: 25pt;" class="slabo"><b><span class="type"></span></b></h2>
-                <p style="margin-bottom: 30px;" class="slabo">Welcome to my website. It's all about my portfolio. Here, you can download my updated CV/Resume, explore my portfolio online, explore my projects, enjoy my articles and more. Have a nice time.</p>
+                <p style="margin-bottom: 30px;" class="slabo">Welcome to my website. It's all about my portfolio. Here, you can download my updated CV/Resume, explore my portfolio online, explore my projects, enjoy my articles and more. Currently I'm open for any job opportunity. Have a nice time.</p>
                 <div class="container">
                     <div class="row">
                         <div class="col-md-3"></div>
@@ -70,8 +71,8 @@
 
     <section id="portfolio" style="height: 40px; margin-top: -30px"></section>
     <div class="container">
+        <!-- 01. Portfolio Summary -->
         <h1 class="acme" style="margin-bottom: 30px;"><i class="fas fa-file-alt"></i> Portfolio Summery</h1>
-        
         <div class="row">
             <div class="col-md-4">
                 <img src="img/profile_image.JPG" alt="profile image" style="height: 100%; width: 100%; border-radius: 4px; border: 1px solid lightgray; padding: 5px;" title="On The Great Wall of China">
@@ -80,28 +81,188 @@
                 <div align=right class="notosans">
                     <h2 style="font-size: 27pt;"><b>MD. AZMAIN YAKIN SRIZON</b></h2>
                     <p style="font-size: 12pt;"><i class="fas fa-map-marker-alt"></i> Maskatadighi, Katakhali, Shyampur-6212, Rajshahi <br>
-                    <i class="fas fa-phone"></i> +880 1790 187189, +880 1521 473566 <br>
-                    <a href="mailto: azmainsrizon@gmail.com" style="text-decoration: none;"><span class="label label-success"><i class="fas fa-envelope"></i> azmainsrizon@gmail.com</span></a>
-                    <a href="https://www.aysrizon.github.io" style="text-decoration: none;"><span class="label label-primary"><i class="fas fa-link"></i> aysrizon.github.io</span></a></p>
+                        <i class="fas fa-phone"></i> +880 1790 187189, +880 1521 473566 <br>
+                        <a href="mailto: azmainsrizon@gmail.com" style="text-decoration: none;"><span class="label label-success"><i class="fas fa-envelope"></i> azmainsrizon@gmail.com</span></a>
+                        <a href="https://www.aysrizon.github.io" style="text-decoration: none;"><span class="label label-primary"><i class="fas fa-link"></i> aysrizon.github.io</span></a></p>
                 </div>
-                
+
                 <p align="justify" style="font-size: 13pt; margin-top: 30px;" class="notosans">I am Azmain Yakin Srizon. Throughout my entire career, I've travelled to diverse sectors of computer and communication technology. I began with problem-solving. Later, I acted as a Software Developer in Java platform. While 2017-19, I served as a Game Developer. I have been developing web apps since 2016 &amp; you're scrolling the most basic one. I have got a publication in an international conference. My research interests are Bioinformatics, Machine Learning, Deep Learning, Data Mining etc. In 2018, I perceived an opportunity to experience 15 days internship program as a Champion in Huawei Headquarters, China.</p>
-                
-                <center><a href="journey.html" style="text-decoration: none; font-size: 14pt;"><span class="label label-warning"><i class="fab fa-wpexplorer"></i> You Can Explore My Entire Journey Here</span></a></center>
-                
+
+                <center><a href="myModal" style="text-decoration: none; font-size: 14pt;" data-toggle="modal" data-target="#myModal"><span class="label label-warning"><i class="fab fa-wpexplorer"></i> You Can Explore My Entire Journey Here</span></a></center>
+
                 <p align="justify" style="font-size: 13pt; margin-top: 30px;" class="notosans"><b><i class="fab fa-accusoft"></i> Objective: </b>To perform my skills on the area of Computer Science & Engineering and talents to develop a challenging career in the domain of Modern Research and Technology with integrity, commitment and enthusiasm where technical expertise is a must and communication skill is appreciated.</p>
             </div>
         </div>
         <hr>
-        
+
+        <!-- 02. Education -->
         <h1 class="acme" style="margin-bottom: 30px; margin-top: 30px;"><i class="fas fa-graduation-cap"></i> Education</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <p align="right" class="notosans left" style="font-size: 15pt;"><b>2015-2019</b></p>
+            </div>
+            <div class="col-md-8 notosans">
+                <p><span style="font-size: 15pt;"><b>B.Sc. Engineering in Computer Science &amp; Engineering</b></span> <br>
+                    <span style="font-size: 14pt; color: #555555;"><i class="fas fa-user-graduate"></i> Rajshahi University of Engineering &amp; Technology</span> <br>
+                    <span style="font-size: 14pt; color: #555555;">CGPA: <b>3.84</b> (out of <b>4.00</b>)</span></p>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-md-4">
+                <p align="right" class="notosans left" style="font-size: 15pt;"><b>2012-2014</b></p>
+            </div>
+            <div class="col-md-8 notosans">
+                <p><span style="font-size: 15pt;"><b>Higher Secondary Certificate (H.S.C.)</b></span> <br>
+                    <span style="font-size: 14pt; color: #555555;"><i class="fas fa-university"></i> Rajshahi College, Rajshahi</span> <br>
+                    <span style="font-size: 14pt; color: #555555;">Group: Science, GPA: 5.00, Board: Rajshahi</span></p>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-md-4">
+                <p align="right" class="notosans left" style="font-size: 15pt;"><b>2010-2012</b></p>
+            </div>
+            <div class="col-md-8 notosans">
+                <p><span style="font-size: 15pt;"><b>Secondary School Certificate (S.S.C.)</b></span> <br>
+                    <span style="font-size: 14pt; color: #555555;"><i class="fas fa-bell-school"></i> Rajshahi University School, Rajshahi</span> <br>
+                    <span style="font-size: 14pt; color: #555555;">Group: Science, GPA: 5.00, Board: Rajshahi</span></p>
+            </div>
+        </div>
+        <hr>
+
+        <!-- 03. Skills -->
+        <h1 class="acme" style="margin-bottom: 30px; margin-top: 30px;"><i class="fab fa-superpowers"></i> Skills</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <p style="font-size: 16pt;" class="slabo"><b>FIELD OF INTEREST</b></p>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                        <span class="sr-only">45% Complete</span>
+                    </div>
+                </div>
+                <p class="notosans" style="font-size: 14pt;" align="justify">Bioinformatics, Machine Learning, Data Mining, Artificial Intelligence (AI), Deep Learning etc.</p>
+                <hr>
+            </div>
+            <div class="col-md-4">
+                <p style="font-size: 16pt;" class="slabo"><b>APPLICATIONS</b></p>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                        <span class="sr-only">45% Complete</span>
+                    </div>
+                </div>
+                <p class="notosans" style="font-size: 14pt;" align="justify">Anaconda, MATLAB, RStudio, NetBeans, Unity, CodeBlocks, Brackets, Construct 2, MIT App Inventor 2, Office 16 etc.</p>
+                <hr>
+            </div>
+            <div class="col-md-4">
+                <p style="font-size: 16pt;" class="slabo"><b>INTERPERSONAL SKILLS</b></p>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+                        <span class="sr-only">45% Complete</span>
+                    </div>
+                </div>
+                <p class="notosans" style="font-size: 14pt;" align="justify">Presentation, Public Speaking, Fluency in English, Punctual, Disciplined, Work in Teams, Time and Event Management</p>
+                <hr>
+            </div>
+            <div class="col-md-4">
+                <p style="font-size: 16pt;" class="slabo"><b>PROGRAMMING LANGUAGES</b></p>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                        <span class="sr-only">45% Complete</span>
+                    </div>
+                </div>
+                <p class="notosans" style="font-size: 14pt;" align="justify">C, C++, Python, Java, R, C#, JavaScript, MATLAB, PHP</p>
+                <hr>
+            </div>
+            <div class="col-md-4">
+                <p style="font-size: 16pt;" class="slabo"><b>EXTRACURRICULAR SKILLS</b></p>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 80%; background-color: #222222;">
+                        <span class="sr-only">45% Complete</span>
+                    </div>
+                </div>
+                <p class="notosans" style="font-size: 14pt;" align="justify">Story Writing, Design Custom Templates, Organizing Programs</p>
+                <hr>
+            </div>
+        </div>
+
+        <!-- 04. Undergraduate Thesis -->
+        <h1 class="acme" style="margin-bottom: 30px; margin-top: 30px;"><i class="fas fa-books"></i> Undergraduate Thesis</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <p align="right" class="notosans left" style="font-size: 15pt;"><b>2018-2019</b></p>
+            </div>
+            <div class="col-md-8 notosans">
+                <p><span style="font-size: 15pt;"><b>Biomarker Identification for Pancreatic Cancer</b></span> <br>
+                    <span style="font-size: 14pt; color: #555555;"><i class="fas fa-user-graduate"></i> Rajshahi University of Engineering &amp; Technology</span> <br>
+                    <span style="font-size: 14pt; color: #555555;">Supervisor: <b>Dr. Md. Al Mehedi Hasan</b>, Dept. of CSE, RUET</span></p>
+            </div>
+        </div>
+        <hr>
+
+        <!-- 05. Publications -->
+        <h1 class="acme" style="margin-bottom: 30px; margin-top: 30px;"><i class="fas fa-file-invoice"></i> Publications</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <p align="right" class="notosans left" style="font-size: 15pt;"><b>11-12 July 2019</b></p>
+            </div>
+            <div class="col-md-8 notosans">
+                <p>
+                    <span style="font-size: 15pt;"><b>Prognostic Biomarker Identification for Pancreatic Cancer by Analyzing Multiple mRNA and microRNA Datasets</b></span> <br>
+                    
+                    <span style="font-size: 14pt; color: #555555;"><i class="fas fa-user-edit"></i> <b>Authors:</b> Azmain Yakin Srizon &amp; Md. Al Mehedi Hasan</span> <br>
+                    
+                    <span style="font-size: 14pt; color: #555555;"><i class="fas fa-users"></i> <b>Conference:</b> 5th International Conference on Computer, Communication, Chemical, Materials &amp; Electronic Engineering (IC4ME2-2019)</span> <br>
+                    
+                    <span style="font-size: 14pt; color: #555555;"><i class="fas fa-id-card-alt"></i> <b>Organized By:</b> Faculty of Engineering, University of Rajshahi</span>
+                </p>
+                <p style="margin-top: -6px;">
+                    <a href="http://dept.ru.ac.bd/ic4me2/2019/" target="_blank" style="text-decoration: none; font-size: 14pt;"><span class="label label-success"><i class="fas fa-users"></i> Conference Site</span></a>
+                    
+                    <a href="#mymodal2" style="text-decoration: none; font-size: 14pt;" data-toggle="modal" data-target="#myModal2"><span class="label label-primary"><i class="fas fa-globe-americas"></i> Paper Link</span></a>
+                </p>
+                    
+                
+                
+            </div>
+        </div>
+        <hr>
+
+    </div>
+
+
+    <section style="height: 50px;"><center>This page is not complete &amp; currently is under construction.</center></section>
+
+    <!-- Modal-1: Page Under Construction -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title notosans"><b>Under Construction</b></h4>
+                </div>
+                <div class="modal-body notosans">
+                    <p align="justify">This page is currently under construction. The page will be available soon. Please try again later.</p>
+                </div>
+            </div>
+        </div>
     </div>
     
-    
-    <section style="height: 50px;"></section>
-    
+    <!-- Modal-2: Yet To Be Published Online -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="myModal2">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title notosans"><b>Not Published Yet</b></h4>
+                </div>
+                <div class="modal-body notosans">
+                    <p align="justify">The paper has not been pulished online yet. The link will be available as soon as the paper gets published online.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script>
-        $('document').ready(function(){
+        $('document').ready(function() {
             var typed = new Typed(".type", {
                 strings: ["I am a CSE Graduate from RUET...", "I am a Software and Web Developer...", "I am also a Passionate Writer..."],
                 typeSpeed: 60,
@@ -109,6 +270,10 @@
                 loop: true
             });
         });
+        $('#myModal').on('shown.bs.modal', function() {
+            $('#myInput').focus()
+        })
+
     </script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="fontawesome/js/all.js"></script>

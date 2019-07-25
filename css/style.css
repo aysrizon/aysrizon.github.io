@@ -49,3 +49,9 @@ html {
 .my_link{
     text-decoration: none;
 }
+
+@media screen and (max-width: 991px){
+    .left{
+        text-align: left;
+    }
+}
